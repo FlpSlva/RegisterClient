@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+label span {
+  font-size: 1.125em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+label input {
+  max-width: 100%;
+  width: 300px;
+  padding: 15px 10px;
+}
+
+button {
+  border: none;
+  background: #2299dd;
+  color: #fff;
+  padding: 5px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #6ec7fa;
+  color: #000;
+}
